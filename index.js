@@ -29,7 +29,8 @@ app.get("/", (req,res) => {
 })
 
 // app.get("/authors/:id", (req,res) => {
-//     res.send(authors[req.params.id])
+    // const {id} = req.params
+//     res.send(`${authors[id].name}, ${authors[id].nationality}`)
 // })
 
 app.get("/authors/:id", (req,res) => {
